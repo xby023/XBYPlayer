@@ -16,6 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.title = @"播放器";
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
