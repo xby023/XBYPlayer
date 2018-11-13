@@ -54,7 +54,7 @@
 }
 
 - (void)initializeUserInterface{
-    self.title = @"XBYPlayer";
+    self.title = @"Video Player";
     XBYPlayer *player = [[XBYPlayer alloc]initWithFrame:CGRectMake(0,0,ScreenWidth, ScreenWidth / 16 * 9)];
     self.player = player;
     [self.view addSubview:self.tableView];
