@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A4D02385C14BE0B74C747BC /* libPods-XBYPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F388458032EA6F8C45F83A /* libPods-XBYPlayer.a */; };
+		A168D25C2199BD160021E858 /* UINavigationController+Revolve.m in Sources */ = {isa = PBXBuildFile; fileRef = A168D25B2199BD160021E858 /* UINavigationController+Revolve.m */; };
+		A168D25F2199BD390021E858 /* UITabBarController+Revolve.m in Sources */ = {isa = PBXBuildFile; fileRef = A168D25E2199BD390021E858 /* UITabBarController+Revolve.m */; };
 		A1EB7B8C2195925800B6B198 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EB7B8B2195925800B6B198 /* AppDelegate.m */; };
 		A1EB7B8F2195925800B6B198 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EB7B8E2195925800B6B198 /* ViewController.m */; };
 		A1EB7B922195925800B6B198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EB7B902195925800B6B198 /* Main.storyboard */; };
 		A1EB7B942195925900B6B198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1EB7B932195925900B6B198 /* Assets.xcassets */; };
 		A1EB7B972195925900B6B198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EB7B952195925900B6B198 /* LaunchScreen.storyboard */; };
 		A1EB7B9A2195925900B6B198 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EB7B992195925900B6B198 /* main.m */; };
+		A1EB7BA92199299100B6B198 /* XBYPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EB7BA82199299100B6B198 /* XBYPlayer.m */; };
+		A1EB7BC42199571000B6B198 /* XBYPlayerIcons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1EB7BC32199571000B6B198 /* XBYPlayerIcons.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54F30228A7FDAB82057BF673 /* Pods-XBYPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XBYPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XBYPlayer/Pods-XBYPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		67063D491DE7502DE6F41724 /* Pods-XBYPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XBYPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-XBYPlayer/Pods-XBYPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		A168D25A2199BD160021E858 /* UINavigationController+Revolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Revolve.h"; sourceTree = "<group>"; };
+		A168D25B2199BD160021E858 /* UINavigationController+Revolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Revolve.m"; sourceTree = "<group>"; };
+		A168D25D2199BD390021E858 /* UITabBarController+Revolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+Revolve.h"; sourceTree = "<group>"; };
+		A168D25E2199BD390021E858 /* UITabBarController+Revolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+Revolve.m"; sourceTree = "<group>"; };
 		A1EB7B872195925800B6B198 /* XBYPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XBYPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1EB7B8A2195925800B6B198 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1EB7B8B2195925800B6B198 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +37,10 @@
 		A1EB7B962195925900B6B198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1EB7B982195925900B6B198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1EB7B992195925900B6B198 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1EB7BA72199299100B6B198 /* XBYPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XBYPlayer.h; sourceTree = "<group>"; };
+		A1EB7BA82199299100B6B198 /* XBYPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBYPlayer.m; sourceTree = "<group>"; };
+		A1EB7BC32199571000B6B198 /* XBYPlayerIcons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = XBYPlayerIcons.xcassets; sourceTree = "<group>"; };
+		C7F388458032EA6F8C45F83A /* libPods-XBYPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XBYPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +48,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A4D02385C14BE0B74C747BC /* libPods-XBYPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20901B092B1E1102C2D17BC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7F388458032EA6F8C45F83A /* libPods-XBYPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E84A1BF8EE23E3EE2C2E3FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54F30228A7FDAB82057BF673 /* Pods-XBYPlayer.debug.xcconfig */,
+				67063D491DE7502DE6F41724 /* Pods-XBYPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A1EB7B7E2195925800B6B198 = {
 			isa = PBXGroup;
 			children = (
 				A1EB7B892195925800B6B198 /* XBYPlayer */,
 				A1EB7B882195925800B6B198 /* Products */,
+				3E84A1BF8EE23E3EE2C2E3FA /* Pods */,
+				20901B092B1E1102C2D17BC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +93,7 @@
 		A1EB7B892195925800B6B198 /* XBYPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				A1EB7BA22199287300B6B198 /* XBYPlayer */,
 				A1EB7B8A2195925800B6B198 /* AppDelegate.h */,
 				A1EB7B8B2195925800B6B198 /* AppDelegate.m */,
 				A1EB7B8D2195925800B6B198 /* ViewController.h */,
@@ -71,6 +107,20 @@
 			path = XBYPlayer;
 			sourceTree = "<group>";
 		};
+		A1EB7BA22199287300B6B198 /* XBYPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A1EB7BC32199571000B6B198 /* XBYPlayerIcons.xcassets */,
+				A1EB7BA72199299100B6B198 /* XBYPlayer.h */,
+				A1EB7BA82199299100B6B198 /* XBYPlayer.m */,
+				A168D25A2199BD160021E858 /* UINavigationController+Revolve.h */,
+				A168D25B2199BD160021E858 /* UINavigationController+Revolve.m */,
+				A168D25D2199BD390021E858 /* UITabBarController+Revolve.h */,
+				A168D25E2199BD390021E858 /* UITabBarController+Revolve.m */,
+			);
+			path = XBYPlayer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +128,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1EB7B9D2195925900B6B198 /* Build configuration list for PBXNativeTarget "XBYPlayer" */;
 			buildPhases = (
+				5C915FF4D563C75F42AE014E /* [CP] Check Pods Manifest.lock */,
 				A1EB7B832195925800B6B198 /* Sources */,
 				A1EB7B842195925800B6B198 /* Frameworks */,
 				A1EB7B852195925800B6B198 /* Resources */,
@@ -130,19 +181,44 @@
 			files = (
 				A1EB7B972195925900B6B198 /* LaunchScreen.storyboard in Resources */,
 				A1EB7B942195925900B6B198 /* Assets.xcassets in Resources */,
+				A1EB7BC42199571000B6B198 /* XBYPlayerIcons.xcassets in Resources */,
 				A1EB7B922195925800B6B198 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5C915FF4D563C75F42AE014E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XBYPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A1EB7B832195925800B6B198 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A168D25C2199BD160021E858 /* UINavigationController+Revolve.m in Sources */,
+				A168D25F2199BD390021E858 /* UITabBarController+Revolve.m in Sources */,
 				A1EB7B8F2195925800B6B198 /* ViewController.m in Sources */,
 				A1EB7B9A2195925900B6B198 /* main.m in Sources */,
+				A1EB7BA92199299100B6B198 /* XBYPlayer.m in Sources */,
 				A1EB7B8C2195925800B6B198 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -272,7 +348,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -281,6 +357,7 @@
 		};
 		A1EB7B9E2195925900B6B198 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54F30228A7FDAB82057BF673 /* Pods-XBYPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +375,7 @@
 		};
 		A1EB7B9F2195925900B6B198 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67063D491DE7502DE6F41724 /* Pods-XBYPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
