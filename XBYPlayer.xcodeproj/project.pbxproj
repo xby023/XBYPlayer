@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5A4D02385C14BE0B74C747BC /* libPods-XBYPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F388458032EA6F8C45F83A /* libPods-XBYPlayer.a */; };
-		A168D25C2199BD160021E858 /* UINavigationController+Revolve.m in Sources */ = {isa = PBXBuildFile; fileRef = A168D25B2199BD160021E858 /* UINavigationController+Revolve.m */; };
-		A168D25F2199BD390021E858 /* UITabBarController+Revolve.m in Sources */ = {isa = PBXBuildFile; fileRef = A168D25E2199BD390021E858 /* UITabBarController+Revolve.m */; };
+		A1DC9839219AAD9F00F57B48 /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = A1DC9838219AAD9E00F57B48 /* content.json */; };
+		A1DC983D219AAF3A00F57B48 /* ListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DC983C219AAF3A00F57B48 /* ListModel.m */; };
+		A1DC9841219AB32B00F57B48 /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DC983F219AB32B00F57B48 /* ListCell.m */; };
+		A1DC9842219AB32B00F57B48 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1DC9840219AB32B00F57B48 /* ListCell.xib */; };
 		A1EB7B8C2195925800B6B198 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EB7B8B2195925800B6B198 /* AppDelegate.m */; };
 		A1EB7B8F2195925800B6B198 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EB7B8E2195925800B6B198 /* ViewController.m */; };
 		A1EB7B922195925800B6B198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EB7B902195925800B6B198 /* Main.storyboard */; };
@@ -23,10 +25,12 @@
 /* Begin PBXFileReference section */
 		54F30228A7FDAB82057BF673 /* Pods-XBYPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XBYPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XBYPlayer/Pods-XBYPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		67063D491DE7502DE6F41724 /* Pods-XBYPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XBYPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-XBYPlayer/Pods-XBYPlayer.release.xcconfig"; sourceTree = "<group>"; };
-		A168D25A2199BD160021E858 /* UINavigationController+Revolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Revolve.h"; sourceTree = "<group>"; };
-		A168D25B2199BD160021E858 /* UINavigationController+Revolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Revolve.m"; sourceTree = "<group>"; };
-		A168D25D2199BD390021E858 /* UITabBarController+Revolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+Revolve.h"; sourceTree = "<group>"; };
-		A168D25E2199BD390021E858 /* UITabBarController+Revolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+Revolve.m"; sourceTree = "<group>"; };
+		A1DC9838219AAD9E00F57B48 /* content.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = content.json; sourceTree = "<group>"; };
+		A1DC983B219AAF3A00F57B48 /* ListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListModel.h; sourceTree = "<group>"; };
+		A1DC983C219AAF3A00F57B48 /* ListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListModel.m; sourceTree = "<group>"; };
+		A1DC983E219AB32B00F57B48 /* ListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
+		A1DC983F219AB32B00F57B48 /* ListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
+		A1DC9840219AB32B00F57B48 /* ListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
 		A1EB7B872195925800B6B198 /* XBYPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XBYPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1EB7B8A2195925800B6B198 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1EB7B8B2195925800B6B198 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -98,7 +102,13 @@
 				A1EB7B8B2195925800B6B198 /* AppDelegate.m */,
 				A1EB7B8D2195925800B6B198 /* ViewController.h */,
 				A1EB7B8E2195925800B6B198 /* ViewController.m */,
+				A1DC983B219AAF3A00F57B48 /* ListModel.h */,
+				A1DC983C219AAF3A00F57B48 /* ListModel.m */,
+				A1DC983E219AB32B00F57B48 /* ListCell.h */,
+				A1DC983F219AB32B00F57B48 /* ListCell.m */,
+				A1DC9840219AB32B00F57B48 /* ListCell.xib */,
 				A1EB7B902195925800B6B198 /* Main.storyboard */,
+				A1DC9838219AAD9E00F57B48 /* content.json */,
 				A1EB7B932195925900B6B198 /* Assets.xcassets */,
 				A1EB7B952195925900B6B198 /* LaunchScreen.storyboard */,
 				A1EB7B982195925900B6B198 /* Info.plist */,
@@ -113,10 +123,6 @@
 				A1EB7BC32199571000B6B198 /* XBYPlayerIcons.xcassets */,
 				A1EB7BA72199299100B6B198 /* XBYPlayer.h */,
 				A1EB7BA82199299100B6B198 /* XBYPlayer.m */,
-				A168D25A2199BD160021E858 /* UINavigationController+Revolve.h */,
-				A168D25B2199BD160021E858 /* UINavigationController+Revolve.m */,
-				A168D25D2199BD390021E858 /* UITabBarController+Revolve.h */,
-				A168D25E2199BD390021E858 /* UITabBarController+Revolve.m */,
 			);
 			path = XBYPlayer;
 			sourceTree = "<group>";
@@ -179,6 +185,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1DC9839219AAD9F00F57B48 /* content.json in Resources */,
+				A1DC9842219AB32B00F57B48 /* ListCell.xib in Resources */,
 				A1EB7B972195925900B6B198 /* LaunchScreen.storyboard in Resources */,
 				A1EB7B942195925900B6B198 /* Assets.xcassets in Resources */,
 				A1EB7BC42199571000B6B198 /* XBYPlayerIcons.xcassets in Resources */,
@@ -214,11 +222,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A168D25C2199BD160021E858 /* UINavigationController+Revolve.m in Sources */,
-				A168D25F2199BD390021E858 /* UITabBarController+Revolve.m in Sources */,
 				A1EB7B8F2195925800B6B198 /* ViewController.m in Sources */,
+				A1DC9841219AB32B00F57B48 /* ListCell.m in Sources */,
 				A1EB7B9A2195925900B6B198 /* main.m in Sources */,
 				A1EB7BA92199299100B6B198 /* XBYPlayer.m in Sources */,
+				A1DC983D219AAF3A00F57B48 /* ListModel.m in Sources */,
 				A1EB7B8C2195925800B6B198 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

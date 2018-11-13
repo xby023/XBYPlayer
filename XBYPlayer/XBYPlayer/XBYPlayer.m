@@ -186,6 +186,11 @@
     [self addObserver:self forKeyPath:@"frame" options:NSKeyValueObservingOptionNew context:nil];
 }
 
+- (void)pauseVideo{
+    self.playButton.selected = NO;
+    [self.player pause];
+}
+
 - (void)actionForShowBottonView{
     
     if (self.bottonView.alpha == 0.0) {

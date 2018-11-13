@@ -3,5 +3,7 @@ platform:ios,'9.0'
 target 'XBYPlayer' do
 
 pod 'Masonry', '~> 1.0.1'
+pod 'MJExtension', '~> 3.0.13'
+pod 'SDWebImage', '~> 3.5'
 
 end
