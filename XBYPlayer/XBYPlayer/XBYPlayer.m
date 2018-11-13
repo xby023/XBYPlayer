@@ -247,8 +247,6 @@
         }];
     }
     
-   
-    
     [self.timeLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.right.mas_equalTo(ws.fullScreenButton.mas_left).offset(0);
         make.top.mas_equalTo(ws.bottonView.mas_top).offset(10);

@@ -15,7 +15,6 @@
     [super awakeFromNib];
     // Initialization code
     self.clipsToBounds = YES;
-
 }
 
 - (void)imageContentOffY{
